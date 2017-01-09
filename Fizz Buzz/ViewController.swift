@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
     func fizzBuz (_ number:Int) -> (String, UIColor) {
         if number % 15 == 0 {
             return ("Fizz\nBuzz", UIColor.red)
